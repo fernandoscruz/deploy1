@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "fernando-test-05",
+  "private_key_id": "95a952aa471cc09af1b2b25717d901ff7218db24",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQD7otY5rV5UnDHM\nCd3T59dLp1+jfkgaSJH+4aLUIgVhnpQNS2Sitw2bJGyMwokReLYa0mQdwWNgcWyo\nfHkUXCTo3w6C7/Ui+vXfdoE0mI6867Yl5T2XYg6gQmUnnRfAihlZ6oNIQbWQ1ERr\nbBoqIwdSXLjInQMpLYFrFgsGC9TmFWDE+UfYdkTJ6QrwPbxAfH0uLoS21o9re8hJ\njy03poSao4/la3KTipjJPRmRQTx8N7Ic3Ox2sY25+DDO2iqrwJuiEFxOqvv1H8Ms\nShqGf60BKna9LfiJjPztRJQPy0g/VyIUdpPXSjkClHukxtq1U7Q7Vxef8Cnd1nXt\nUnN2DkjTAgMBAAECggEADsZY3boYN8+T/O73X2HVelOxgeAAS8rHB7gn31zABCNT\nfhRXLFajLeDNntYtRiFYT+rahgS82QTP5HSqh0+Bu0qdh4KfWhZyKVTD8VqjxuPw\nJfl3zFOtmCtN1S2cH2n8YxMp8iwphP9xpP0L7D1ySJu5Hc5aSSiq2KbKrugy7+9j\nmQig35fiZmbuU/OMo0yEXha3yCAFwjsibzRiYm5JN8cHmlU8wiPUdTVTzMYyDBEt\n85wGCJzVKvfqTcbTIPmtoBgEnnQ59MPCw2Cy7q1cZkANhq/MMzg6kN1SVI9bAccy\nEf0JBdyrLZ7/CZheHxpMcdTKRk+2WO0MGRO2Svi5QQKBgQD+Y0lXacqbQ5hrPIv2\nqUyOF9VzYlfLn7lVX7yjEBzd62QvKZ8x4JP6tTjfcCA1wOqs6+jyjBhWS2HWJe2H\nF5cSMlstPploMLPbOdlUOFhBY0TrI5hy+6ccc7PHfTvPo4od8fRmFtpp0w5vBjNE\noEoqB9lomuOB/4U35cka9D9DPwKBgQD9OxX/2iEmtiBosOiNQFuZOc07/Civa+ZU\na8OIGrg+f1S1REHvT2XyGcCRRkCBhmVeSU3QGC3a1pCuX2b9ibrtYG4Vnh3KhT0a\nCJBJzmaM6BylOwaxhzd0XEz+efdIogp/iDkQSV89vGsgzfvrzjk0PP0k95yUIjdc\nfbP3MpKZbQKBgQDvbpv1PomIIdMv+8jw3OBFTYGGHKXt7eQOyxFNmTjSV1/wVAiW\ndX5Slod1Jp/qeC1pnJGg2ON/NWxcl049vKJgai0PJMBXJJ/kU0qOzomi4cBYYSR3\n9QyQ5wXrWaAWCyNQlA8ol5Hz0MbhEMDocsXbUY/7uO0xykKlHg5u5D03GQKBgQDa\nEqYRXVGrOrCSN7cs3T2EqMhbXf3Tg8Io9Vy/uvLrr0/Ngmido+yRHyg8cxld8dUd\n61a9W/UxPhH+eF4C/Tci8SYcK7xQCYni/3jydnLN6Z2xlTFgdKeG523OwE36GMGd\nrjwmEGmaisZey8Sk/0U3/UWrLimDUCwI1J/Ew6KHyQKBgQD2xb8d7Ux5tAb1zUHL\nY+1oSrnOMLn+WTkFISgfJGuBKUpXS/9e44cLeEsWbj6zsja0ilhQp7ZUyXH2CEzD\nS6gQ5ol939OovZ/3ZH//O4Itu9b/DlqKQ6MdYM3l4RwkCDjpZzp5XsSVAI/Fc3uO\ngFE2hHs5CdSWpIBhkHxK0I5sPA==\n-----END PRIVATE KEY-----\n",
+  "client_email": "kubernet-admin@fernando-test-05.iam.gserviceaccount.com",
+  "client_id": "114091731446466211257",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/kubernet-admin%40fernando-test-05.iam.gserviceaccount.com"
+}

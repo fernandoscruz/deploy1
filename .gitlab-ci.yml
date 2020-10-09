@@ -1,0 +1,44 @@
+image: docker
+
+stages:
+  - build
+  - test
+  - deploy
+
+services:
+  - docker:dind
+
+
+Build Imagem:
+  image: google/cloud-sdk:latest 
+  stage: build
+  script:
+    - echo $CI_PIPELINE_ID
+    - gcloud auth activate-service-account --key-file=$google_key
+    - gcloud config set project fernando-test-05
+    - gcloud container images list --repository=gcr.io/fernando-test-05
+    - gcloud builds submit --tag gcr.io/fernando-test-05/nginx-pipeline-teste:$CI_PIPELINE_ID
+    - gcloud container images list --repository=gcr.io/fernando-test-05
+
+
+Testa imagem:
+  stage: test
+  script:
+    - docker run --rm gcr.io/fernando-test-05/nginx-pipeline-teste:$CI_PIPELINE_ID /test.sh
+
+
+Deploy GKE:
+  image: google/cloud-sdk:latest
+  stage: deploy
+  script:
+    - gcloud auth activate-service-account --key-file=$google_key
+    - gcloud container clusters get-credentials cluster-1 --zone us-central1-c --project fernando-test-05
+    - kubectl set image deployment/nginx-pipeline-teste nginx-app=gcr.io/fernando-test-05/nginx-pipeline-teste:$CI_PIPELINE_ID --namespace=test 
+    - echo 'Final deploy'
+  environment:
+    name: production
+    url: https://www.pipeline-teste-fernando.com.br
+  when: manual
+  only:
+      - master
+    
